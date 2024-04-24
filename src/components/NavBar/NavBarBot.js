@@ -10,7 +10,7 @@ import Nav from 'react-bootstrap/Nav';
 function NavBarTop() {
   return (
     
-    <Navbar className="bg-body-tertiary justify-content-between">
+    <Navbar className="bg-body-tertiary justify-content-between" bg="dark" data-bs-theme="dark">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -24,7 +24,7 @@ function NavBarTop() {
    
       <Row>
           <Col xs="auto">
-            <Button type="submit">Regina</Button>
+            <Button type="submit" variant="outline-light">Regina</Button>
           </Col>
         </Row>
         </Container>
