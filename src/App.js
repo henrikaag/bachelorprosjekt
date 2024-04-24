@@ -1,11 +1,13 @@
 import './App.css';
-import Navigation from './components/NavBar/NavBar';
+import NavBarTop from './components/NavBar/NavBarTop';
+import NavBarBot from './components/NavBar/NavBarBot';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navigation />
+        <NavBarTop />
+        <NavBarBot />
       </header>
     </div>
   );
