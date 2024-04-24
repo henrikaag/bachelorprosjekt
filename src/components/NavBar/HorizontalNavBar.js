@@ -20,7 +20,7 @@ function TabsExample() {
               For Deg
             </ListGroup.Item>
             <ListGroup.Item action href="#innblikk">
-              Innblik
+              Innblikk
             </ListGroup.Item>
           </ListGroup>
         </Col>
