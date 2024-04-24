@@ -8,7 +8,7 @@ import Container from "react-bootstrap/Container";
 
 function NavBarTop() {
   return (
-    <Navbar className="bg-body-tertiary justify-content-between">
+    <Navbar className="bg-body-tertiary justify-content-between" bg="dark" data-bs-theme="dark">
       <Container>
         <Form inline>
           <Row>
@@ -17,6 +17,8 @@ function NavBarTop() {
               <img
                 src={require(`../../img/Oda-logo.png`)}
                 alt="oda-logo"
+                width={65}
+                height={25}
               />
             </Navbar.Brand>
             </Col>
@@ -33,10 +35,10 @@ function NavBarTop() {
         <Form inline>
           <Row>
             <Col xs="auto">
-              <Button type="submit">Velg leveransetid</Button>
+              <Button type="submit" variant="outline-light">Velg leveransetid</Button>
             </Col>
             <Col xs="auto">
-              <Button type="submit">0,00 kr</Button>
+              <Button type="submit" variant="outline-light">0,00 kr</Button>
             </Col>
           </Row>
         </Form>
