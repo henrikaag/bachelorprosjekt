@@ -12,12 +12,14 @@ function NavBarTop() {
       <Container>
         <Form inline>
           <Row>
+            <Col xs="auto">
             <Navbar.Brand href="#home">
               <img
-                src="../../img/Oda-logo.png"
+                src={require(`../../img/Oda-logo.png`)}
                 alt="oda-logo"
               />
             </Navbar.Brand>
+            </Col>
             <Col xs="auto">
               <Form.Control
                 type="text"
