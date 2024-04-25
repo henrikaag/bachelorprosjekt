@@ -3,6 +3,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
 import '../../css/NavBar/HorizontalNavBar.css';
+import ForYouPage from '../ForYou/ForYouPage';
 
 function HorizontalNavBar() {
   const [key, setKey] = useState('home');
@@ -17,8 +18,8 @@ function HorizontalNavBar() {
       <Tab fill eventKey="home" title="Home">
         Tab content for Home
       </Tab>
-      <Tab eventKey="profile" title="Profile">
-        Tab content for Profile
+      <Tab eventKey="foryou" title="for deg">
+        <ForYouPage/>
       </Tab>
       <Tab eventKey="contact" title="Contact">
         Tab content for Contact
