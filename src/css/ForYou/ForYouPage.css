@@ -23,6 +23,7 @@
     width: 100%;
     margin-bottom: 10px;
     text-align: center;
+<<<<<<< Updated upstream
     margin-top: 45px;
 }
 
@@ -54,3 +55,7 @@
     background-color: #202020;
     margin-top: 50px;
 }
+=======
+    justify-content: center;
+}
+>>>>>>> Stashed changes
