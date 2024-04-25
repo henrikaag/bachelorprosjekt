@@ -45,8 +45,4 @@ function Sparemaal() {
     )
 };
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 export default Sparemaal;
