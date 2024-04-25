@@ -1,0 +1,8 @@
+.progressbar{
+    width: 800px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+}

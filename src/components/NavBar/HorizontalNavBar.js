@@ -5,6 +5,8 @@ import Tab from 'react-bootstrap/Tab';
 import Container from "react-bootstrap/Container";
 
 import '../../css/NavBar/HorizontalNavBar.css';
+import ForYouPage from '../ForYou/ForYouPage';
+
 
 function TabsExample() {
   return (
@@ -27,7 +29,9 @@ function TabsExample() {
         <Col sm={12}>
           <Tab.Content>
             <Tab.Pane eventKey="#forbruk">FORBRUK</Tab.Pane>
-            <Tab.Pane eventKey="#fordeg">FOR DEG</Tab.Pane>
+            <Tab.Pane eventKey="#fordeg">
+              <ForYouPage/>
+              </Tab.Pane>
             <Tab.Pane eventKey="#innblikk">INNBLIKK</Tab.Pane>
           </Tab.Content>
         </Col>
