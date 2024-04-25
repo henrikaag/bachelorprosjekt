@@ -1,44 +1,30 @@
-import Col from 'react-bootstrap/Col';
-import ListGroup from 'react-bootstrap/ListGroup';
-import Row from 'react-bootstrap/Row';
+import { useState } from 'react';
 import Tab from 'react-bootstrap/Tab';
-import Container from "react-bootstrap/Container";
+import Tabs from 'react-bootstrap/Tabs';
 
 import '../../css/NavBar/HorizontalNavBar.css';
-import ForYouPage from '../ForYou/ForYouPage';
 
+function HorizontalNavBar() {
+  const [key, setKey] = useState('home');
 
-function TabsExample() {
   return (
-    <Container className='NavigationTabs mt-4'>
-    <Tab.Container id="list-group-tabs-example" defaultActiveKey="#forbruk">
-      <Row>
-        <Col sm={12}>
-          <ListGroup horizontal>
-            <ListGroup.Item action href="#forbruk">
-              Forbruk
-            </ListGroup.Item>
-            <ListGroup.Item action href="#fordeg">
-              For Deg
-            </ListGroup.Item>
-            <ListGroup.Item action href="#innblikk">
-              Innblikk
-            </ListGroup.Item>
-          </ListGroup>
-        </Col>
-        <Col sm={12}>
-          <Tab.Content>
-            <Tab.Pane eventKey="#forbruk">FORBRUK</Tab.Pane>
-            <Tab.Pane eventKey="#fordeg">
-              <ForYouPage/>
-              </Tab.Pane>
-            <Tab.Pane eventKey="#innblikk">INNBLIKK</Tab.Pane>
-          </Tab.Content>
-        </Col>
-      </Row>
-    </Tab.Container>
-    </Container>
+    <Tabs
+      id="controlled-tab-example"
+      activeKey={key}
+      onSelect={(k) => setKey(k)}
+      className="mb-3 tab-navigation"
+    >
+      <Tab fill eventKey="home" title="Home">
+        Tab content for Home
+      </Tab>
+      <Tab eventKey="profile" title="Profile">
+        Tab content for Profile
+      </Tab>
+      <Tab eventKey="contact" title="Contact">
+        Tab content for Contact
+      </Tab>
+    </Tabs>
   );
 }
 
-export default TabsExample;
+export default HorizontalNavBar;

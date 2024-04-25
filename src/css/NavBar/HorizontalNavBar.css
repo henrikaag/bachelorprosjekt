@@ -1,7 +1,7 @@
-.NavigationTabs {
+.tab-navigation {
     display: flex;
-    width: 100%;
-    max-width: 90%;
-    margin: 0 auto;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
 }

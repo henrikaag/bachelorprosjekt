@@ -1,7 +1,7 @@
 import './App.css';
 import NavBarTop from './components/NavBar/NavBarTop';
 import NavBarBot from './components/NavBar/NavBarBot';
-import HorizontalExample from './components/NavBar/HorizontalNavBar';
+import HorizontalNavBar from './components/NavBar/HorizontalNavBar';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       </header>
       <main>
         <body>
-        <HorizontalExample />
+        <HorizontalNavBar />
         </body>
 
       </main>
