@@ -1,16 +1,27 @@
-import BasicExample from "./Sparemaal";
+import { Col, Container, Row } from "react-bootstrap";
 import Sparemaal from "./Sparemaal";
+import TipBox1 from "./TipBox1";
+import Delmaal from "./Delmaal";
+import TidSpart from "./TidSpart";
+import Test from "./test";
+
 
 function ForYouPage() {
     return(
-        <div className="container">
-            <div className="row">
-                <div className="col-md-6">
-                <Sparemaal/>
-                </div>
-                
-            </div>
-        </div>
+         <Container>
+            <Sparemaal/>
+            <TipBox1/>
+                <Row>
+                    <Col>
+                    <TidSpart/>
+                    </Col>
+                    <Col>
+                    <Delmaal/>
+                    </Col>
+                </Row>
+            <Test/>
+        </Container>
+
     )
 };
 
