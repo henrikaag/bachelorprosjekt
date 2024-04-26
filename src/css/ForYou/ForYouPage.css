@@ -194,5 +194,51 @@
     margin-bottom: 70px;
 }
 
+
+
+/* VARE-CARD */
+
+.vare {
+    width: 13rem;
+}
+
+.vare-body{
+    height: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.bytt-ut-btn{
+    height: 2.5rem;
+}
+
 /* KLIMAVENNLIGE ALTERNATIVER */
 
+.klima-alt-container{
+    margin-bottom: 70px;
+}
+
+.klima-alt-row {
+    margin-bottom: 20px;
+}
+
+.klima-alt-btn{
+    justify-content: center;
+    align-items: center;
+}
+
+/* BILLIGERE ALTERNATIVER */
+
+.billig-alt-container{
+    margin-bottom: 70px;
+}
+
+.billig-alt-row {
+    margin-bottom: 20px;
+}
+
+.billig-alt-btn{
+    justify-content: center;
+    align-items: center;
+}

@@ -6,6 +6,8 @@ import TidSpart from "./TidSpart";
 import Test from "./test";
 import TipBox2 from "./TipBox/TipBox2";
 import KlimaAlt from "./KlimaAlt";
+import TipBox3 from "./TipBox/TipBox3";
+import BilligAlt from "./BilligAlt";
 
 
 function ForYouPage() {
@@ -23,7 +25,8 @@ function ForYouPage() {
                 </Row>
             <TipBox2/>
             <KlimaAlt/>
-            <Test/>
+            <TipBox3/>
+            <BilligAlt/>
         </Container>
 
     )

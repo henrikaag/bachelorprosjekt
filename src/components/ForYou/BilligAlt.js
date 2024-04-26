@@ -1,13 +1,13 @@
 import { Card, Container, Row, Col, Button } from "react-bootstrap";
 
-function KlimaAlt() {
+function BilligAlt() {
     return(
-        <Container className="klima-alt-container">
+        <Container className="billig-alt-container">
             <Row>
-            <h1>KLIMAVENNLIGE ALTERNATIVER</h1>
-            <p>Varer du ofte hanler, som har et mer klimavennlig alternativ</p>
+            <h1>VARER MED BILLIGERE ALTERNATIVER</h1>
+            <p>Varer du ofte handler, som har et billigere alternativ</p>
             </Row>
-            <Row className="klima-alt-row">
+            <Row className="billig-alt-row">
                 <Col className="px-1">
                     <Card className="vare">
                         <Card.Img variant="top" src={require(`../../img/boil-in-bag.jpeg`)}>
@@ -112,7 +112,7 @@ function KlimaAlt() {
                 </Col>
             </Row>
             <Row>
-            <Button className="klima-alt-btn">
+            <Button className="billig-alt-btn">
                 Vis mer
             </Button>
             </Row>
@@ -120,4 +120,4 @@ function KlimaAlt() {
     )
 }
 
-export default KlimaAlt;
+export default BilligAlt;
