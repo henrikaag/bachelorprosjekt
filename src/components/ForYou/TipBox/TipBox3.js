@@ -2,22 +2,22 @@
 import { Container, Row, Col } from "react-bootstrap";
 import React from "react";
 
-import "../../css/ForYou/ForYouPage.css"; 
 
-function TipBox1() {
+
+function TipBox3() {
     return (
-        <Container className="tip-box-1-container">
+        <Container className="tip-box-3-container">
             <Row>
-                    <div  className="tip-box-1">
+                    <div  className="tip-box-3">
                         <Row>
-                            <Col xs={1} className="tip-box-1-icon">
+                            <Col xs={1} className="tip-box-3-icon">
                                 
                                     <div class="spinner-border" role="status">
                                     <span class="visually-hidden">Loading...</span>
                                     </div>
                             </Col>
                             <Col>
-                                <div className="tip-box-1-text">
+                                <div className="tip-box-3-text">
                                     <h3>Tips</h3>
                                     <p>This text is not bold</p>
                                 </div>
@@ -29,4 +29,4 @@ function TipBox1() {
     )
 }
 
-export default TipBox1;
+export default TipBox3;

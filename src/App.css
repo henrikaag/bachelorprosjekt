@@ -1,4 +1,5 @@
-.body{
-    background-color: #FBF8F3;
+body{
+    background-color: #FBF8F3 !important;
+    
     height: 100vh;
 }

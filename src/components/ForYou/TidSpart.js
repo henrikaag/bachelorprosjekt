@@ -10,16 +10,20 @@ function TidSpart() {
             </Row>
             <Row className="tid-spart-content">
                 <Row>
-                <div className="tid-spart-content">
+                <div className="tid-spart-content-header">
                     <h1>Denne måneden</h1>
                 </div>
                 </Row>
+                <Row className="tid-spart-content-timer">
                     <Col>
                     <h1>11</h1>
+                    <p>Bestillinger</p>
                     </Col>
                     <Col>
                     <h1>23</h1>
+                    <p>Timer spart</p>
                     </Col>
+                </Row>
             </Row>
         </Container>
     );

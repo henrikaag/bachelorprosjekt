@@ -11,9 +11,9 @@ function App() {
         <NavBarBot />
       </header>
       <main>
-        <body className='body'>
+        {/* <body className='body'> */}
         <HorizontalNavBar />
-        </body>
+        {/* </body> */}
 
       </main>
     </div>
