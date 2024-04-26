@@ -1,4 +1,4 @@
-import { Card, Button, Container, Row, Col } from "react-bootstrap";
+import { Button, Container, Row, Col } from "react-bootstrap";
 import React from "react";
 
 import "../../css/ForYou/ForYouPage.css"; 
@@ -6,10 +6,12 @@ import "../../css/ForYou/ForYouPage.css";
 function Sparemaal() {
     return(
         <Container className="sparemaal-container">
+            <Row>
+                <h1 className="sparemaal-headline">SPAREMÅL</h1>
+                <p className="sparemaal-text">Spar 300 Kr ved å handle varer på tilbud</p>
+            </Row>
             <Row className="row-progressbar">
                 <Col>
-                    <h1 className="sparemaal-headline">SPAREMÅL</h1>
-                    <p className="sparemaal-text">Spar 300 Kr ved å handle varer på tilbud</p>
                     <div className="progressbar">
                     <div className="progressbarfill"></div>
                     </div>
@@ -40,6 +42,11 @@ function Sparemaal() {
                 <p>500 kr</p>
                 </Col>
 
+            </Row>
+            <Row>
+                <div className="sparemaal-btn-div">
+                <Button className="sparemaal-btn">Endre Sparemål</Button>
+                </div>
             </Row>
         </Container>
     )
