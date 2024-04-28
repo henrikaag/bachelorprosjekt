@@ -23,9 +23,8 @@
 /* Bestillinger */
 
 .filter-btn {
-    border-color: #D8D2CB;
-    border-width: 2px;
-
+    border-color: #D8D2CB !important;
+    border-width: 2px !important;
 }
 
 .bestilling-card {
@@ -33,6 +32,6 @@
     border: 1px solid #D8D2CB;
     border-radius: 8px;
     box-shadow: 0 2px 12px 0 rgba(66,64,61,0.08);
-    padding-top: 25px;
-    width: 30rem;
+    padding: 15px;
+    width: 100%;
 }

@@ -17,6 +17,7 @@ function Bestillinger() {
                 <Col><Button className="filter-btn" variant="light">Alle</Button></Col>
             </Row>
             <Container>
+            {/* Skal fikse spacing på elementene her */}
             <Row className="month-header">
                 <h4>Mars 2024</h4>
             </Row>
@@ -34,8 +35,20 @@ function Bestillinger() {
             </Container>
 
             <Row className="month-header">
-                <h4>Mars 2024</h4>
+                <h4>April 2024</h4>
             </Row>
+            <Container>
+            <Row className="bestilling-card">
+                <Col>
+                    <p>Ons 14. Februar, 15:02</p>
+                    <p>Slottsplassen 1, 0010 Oslo</p>
+                    <a href="url">Se kategorifordeling</a>
+                </Col>
+                <Col>
+                <p>978,57 kr</p>
+                </Col>
+            </Row>
+            </Container>
             </Container>
         </Container>
     )
