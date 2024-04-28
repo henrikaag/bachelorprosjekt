@@ -28,7 +28,7 @@ function Bestillinger() {
                     <a href="url">Se kategorifordeling</a>
                 </Col>
                 <Col>
-                <p>ET hjul</p>
+                <p>978,57 kr</p>
                 </Col>
             </Row>
             </Container>

@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Button } from "react-bootstrap";
 
 function Budsjett() {
   return (
@@ -29,6 +29,7 @@ function Budsjett() {
           </Col>
         </Row>
       </Row>
+      <Button variant="dark">Endre budsjett</Button>
     </Container>
   );
 }
