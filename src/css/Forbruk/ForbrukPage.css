@@ -1,0 +1,38 @@
+/* Budsjett*/
+
+.budsjett-box {
+    padding-top: 25px;
+    width: 30rem;
+    border: 1px solid #D8D2CB;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px 0 rgba(66,64,61,0.08);
+
+}
+
+.divider-line {
+    width: 90%;
+}
+
+.budsjett-rest-number {
+    color: #2B7610;
+}
+
+/* Bestillinger */
+
+.filter-btn {
+    border-color: #D8D2CB;
+    border-width: 2px;
+
+}
+
+.bestilling-card {
+    background-color: #FFFFFF;
+    border: 1px solid #D8D2CB;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px 0 rgba(66,64,61,0.08);
+    padding-top: 25px;
+    width: 30rem;
+}
