@@ -3,7 +3,6 @@ import Sparemaal from "./Sparemaal";
 import TipBox1 from "./TipBox/TipBox1";
 import Delmaal from "./Delmaal";
 import TidSpart from "./TidSpart";
-import Test from "./test";
 import TipBox2 from "./TipBox/TipBox2";
 import KlimaAlt from "./KlimaAlt";
 import TipBox3 from "./TipBox/TipBox3";

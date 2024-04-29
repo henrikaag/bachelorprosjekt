@@ -1,0 +1,55 @@
+.kategori-bruk-container{
+    height: 30rem;
+    width: 60rem;
+    border: 1px solid #D8D2CB; 
+    padding: 3rem;
+    background-color: #F3EEE6;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.item-row {
+    margin: 2rem;
+}
+
+.kategori-bruk-row {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+
+.dot-yellow {
+    height: 1.5rem;
+    width: 2rem;
+    background-color: yellow;
+    border-radius: 10px;    
+}
+
+.kategori-bruk-row {
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.dot-blue {
+    height: 1.5rem;
+    width: 2rem;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.dot-red {
+    height: 1.5rem;
+    width: 2rem;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.dot-green {
+    height: 1.5rem;
+    width: 2rem;
+    background-color: green;
+    border-radius: 10px;
+}
