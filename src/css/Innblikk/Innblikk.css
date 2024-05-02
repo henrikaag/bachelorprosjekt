@@ -1,12 +1,16 @@
 .kategori-bruk-container{
     height: 30rem;
-    width: 60rem;
-    border: 1px solid #D8D2CB; 
-    padding: 3rem;
+    border-radius: 10px;
+    padding-top: 3rem;
     background-color: #F3EEE6;
     display: flex;
     flex-direction: column;
-    
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.width-div{
+    width: 45rem;
 }
 
 .item-row {
@@ -17,13 +21,14 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
+    
 }
 
 
 .dot-yellow {
     height: 1.5rem;
     width: 2rem;
-    background-color: yellow;
+    background-color: #E6A800;
     border-radius: 10px;    
 }
 
@@ -36,20 +41,31 @@
 .dot-blue {
     height: 1.5rem;
     width: 2rem;
-    background-color: blue;
+    background-color: #216FA6;
     border-radius: 10px;
 }
 
 .dot-red {
     height: 1.5rem;
     width: 2rem;
-    background-color: red;
+    background-color: #C25047;
     border-radius: 10px;
 }
 
 .dot-green {
     height: 1.5rem;
     width: 2rem;
-    background-color: green;
+    background-color: #3DA617;
     border-radius: 10px;
 }
+
+.divider-div{
+    width: 45rem;
+    border: 1px solid #D8D2CB; 
+    margin-bottom: 20px;
+}
+
+.kategori-bruk-text {
+ text-align: center;
+}
+
