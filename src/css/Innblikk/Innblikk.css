@@ -1,48 +1,17 @@
-.kategori-bruk-container{
-    height: 30rem;
+
+/* DIVERSE */
+.dot-blue {
+    height: 1.5rem;
+    width: 2rem;
+    background-color: #216FA6;
     border-radius: 10px;
-    padding-top: 3rem;
-    background-color: #F3EEE6;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
 }
-
-.width-div{
-    width: 45rem;
-}
-
-.item-row {
-    margin: 2rem;
-}
-
-.kategori-bruk-row {
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    
-}
-
 
 .dot-yellow {
     height: 1.5rem;
     width: 2rem;
     background-color: #E6A800;
     border-radius: 10px;    
-}
-
-.kategori-bruk-row {
-    flex-wrap: wrap;
-    align-items: center;
-
-}
-
-.dot-blue {
-    height: 1.5rem;
-    width: 2rem;
-    background-color: #216FA6;
-    border-radius: 10px;
 }
 
 .dot-red {
@@ -65,7 +34,61 @@
     margin-bottom: 20px;
 }
 
+/* KATEGORI BRUK */
+
+.kategori-bruk-container{
+    height: 30rem;
+    width: 70rem;
+    border-radius: 10px;
+    padding-top: 3rem;
+    background-color: #F3EEE6;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 45px;
+}
+
+.width-div{
+    width: 45rem;
+}
+
+.item-row {
+    margin: 2rem;
+}
+
+.kategori-bruk-row {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+}
+
+
+
+.kategori-bruk-row {
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+
 .kategori-bruk-text {
  text-align: center;
 }
 
+/* MÅNTLIG BRUK */ 
+
+.line-chart-container{
+    display: flex;
+    justify-content: center;
+    background-color: #F3EEE6;
+    border-radius: 10px;
+
+}
+
+
+.line-chart{
+    width: 60rem;
+}

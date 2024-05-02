@@ -6,7 +6,7 @@ function InnblikkPage() {
     return(
         <Container>
             <KategoriBruk/>
-            <MaantligBruk/>
+            {<MaantligBruk/>}
         </Container>
     )
 }
