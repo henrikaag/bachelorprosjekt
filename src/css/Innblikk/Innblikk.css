@@ -51,6 +51,7 @@
 
 .width-div{
     width: 45rem;
+    
 }
 
 .item-row {
@@ -85,10 +86,12 @@
     justify-content: center;
     background-color: #F3EEE6;
     border-radius: 10px;
+    margin-bottom: 70px;
+    height: 35rem;
 
 }
 
 
 .line-chart{
-    width: 60rem;
+    height: 30rem;
 }

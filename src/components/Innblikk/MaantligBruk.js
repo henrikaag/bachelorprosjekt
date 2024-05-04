@@ -1,5 +1,5 @@
 
-import { Bar, Doughnut, Line } from "react-chartjs-2";
+import { Line } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
 import { Container } from "react-bootstrap";
 
@@ -14,12 +14,15 @@ function MaantligBruk() {
                     <Line 
                     
                         data={{
-                            labels: ["A", "B", "C"],
+                            labels: ["1", "5", "10", "15","20", "25", "30"],
                             datasets: [
                                 {
-                                    label: "Revenue",
-                                    data: [200, 300, 400]
-                                }
+                                    label: "Måntlig bruk ",
+                                    data: [0, 500, 1200, 1650, 2000, 2600, 3100],
+                                    backgroundColor: [
+                                        "rgba(230,168,0)"
+                                    ],
+                                },
                             ],
                         }}
                     
