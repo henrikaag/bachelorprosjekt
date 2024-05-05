@@ -1,4 +1,5 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
+import { Doughnut } from "react-chartjs-2";
 
 function Delmaal() {
     return(
@@ -15,7 +16,22 @@ function Delmaal() {
                     <h6>av 5 handlet</h6>
                 </Col>
                 <Col>
-                <h1>ET hjul</h1>
+                    <div className="doughnut-chart-delmaal"> 
+                            <Doughnut 
+                                data={{
+                                    labels: [],
+                                        datasets: [
+                                        {
+                                            data: [80, 20],
+                                            backgroundColor: [
+                                                "rgba(230,168,0)",
+                                                "rgba(32, 32, 32",
+                                            ],
+                                        },
+                                    ],
+                                }}
+                            />
+                        </div>
                 </Col>
             </Row>
             <Row className="delmaal-content-2">
@@ -26,7 +42,22 @@ function Delmaal() {
                     <h6>av 5 handlet</h6>
                 </Col>
                 <Col>
-                <h1>ET hjul</h1>
+                    <div className="doughnut-chart-delmaal"> 
+                        <Doughnut 
+                            data={{
+                                labels: [],
+                                    datasets: [
+                                    {
+                                        data: [80, 20],
+                                        backgroundColor: [
+                                            "rgba(230,168,0)",
+                                            "rgba(32, 32, 32",
+                                        ],
+                                    },
+                                ],
+                            }}
+                        />
+                    </div>
                 </Col>
             </Row>
             <Button className="delmaal-vis-mer">

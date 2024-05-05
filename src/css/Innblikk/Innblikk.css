@@ -38,7 +38,7 @@
 
 .kategori-bruk-container{
     height: 30rem;
-    width: 70rem;
+    
     border-radius: 10px;
     padding-top: 3rem;
     background-color: #F3EEE6;
@@ -50,7 +50,7 @@
 }
 
 .width-div{
-    width: 45rem;
+    width: 35rem;
     
 }
 
@@ -82,16 +82,59 @@
 /* MÅNTLIG BRUK */ 
 
 .line-chart-container{
-    display: flex;
+    
     justify-content: center;
     background-color: #F3EEE6;
     border-radius: 10px;
     margin-bottom: 70px;
     height: 35rem;
-
+    width: 69rem;
 }
 
 
 .line-chart{
     height: 30rem;
+}
+
+/* PENGER SPART */
+
+.penger-spart-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #F3EEE6;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    height: 30rem;
+    width: 69rem;
+}
+
+.filter-row{
+    margin-top: 40px;
+}
+
+.filter-btn{
+    margin-top: 30px;
+    margin-left: 5px;
+    width: 5rem;
+}
+
+.doughnut-chart-col{
+    width: auto;
+    height: 25rem;
+}
+
+.doughnut-info-col{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.doughnut-chart-col{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.doughnut-chart{
+    height: 20rem;
 }

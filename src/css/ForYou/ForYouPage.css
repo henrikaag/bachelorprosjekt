@@ -56,6 +56,8 @@
     justify-content: center;
     text-align: center;
     margin-top: 35px;
+    
+    
     /* margin-bottom: 30px; */
     
     
@@ -70,10 +72,11 @@
 .tip-box-1 {
     width: 100%;
     height: auto;
-    background-color: #FFFFFF;
+    background-color: #F3EEE6;
     margin-top: 50px;
     border: 1px solid #D8D2CB;
     border-radius: 20px;
+    box-shadow: 0px 1px 0px 0px
 }
 
 .tip-box-1-container {
@@ -93,10 +96,11 @@
 .tip-box-2 {
     width: 100%;
     height: auto;
-    background-color: #FFFFFF;
+    background-color: #F3EEE6;
     margin-top: 50px;
     border: 1px solid #D8D2CB;
     border-radius: 20px;
+    box-shadow: 0px 1px 0px 0px
 }
 
 .tip-box-2-container {
@@ -116,10 +120,11 @@
 .tip-box-3 {
     width: 100%;
     height: auto;
-    background-color: #FFFFFF;
+    background-color: #F3EEE6;
     margin-top: 50px;
     border: 1px solid #D8D2CB;
     border-radius: 20px;
+    box-shadow: 0px 1px 0px 0px
 }
 
 .tip-box-3-container {
@@ -144,7 +149,7 @@
     text-align: center;
     background-color: #FFFFFF;
     border-radius: 20px;
-    box-shadow: 1px 2px 1px 0px
+    
 }
 
 .tid-spart-content-header{
@@ -174,7 +179,6 @@
     margin-bottom: 10px;
     background-color: #FFFFFF;
     border-radius: 20px;
-    box-shadow: 1px 1px 1px 0px
 }
 
 .delmaal-content-2{
@@ -184,7 +188,6 @@
     margin-bottom: 10px;
     background-color: #FFFFFF;
     border-radius: 20px;
-    box-shadow: 1px 1px 1px 0px
 }
 
 .delmaal-vis-mer{
@@ -192,6 +195,10 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 70px;
+}
+
+.doughnut-chart-delmaal{
+    height: 10rem;
 }
 
 
