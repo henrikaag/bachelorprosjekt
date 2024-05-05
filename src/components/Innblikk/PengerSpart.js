@@ -53,13 +53,13 @@ function PengerSpart() {
                                     <div className="dot-yellow"></div>
                                 </Col>
                                 <Col>
-                                    <div>Kylling og kjøtt</div>
+                                    <div>Tilbud fra Oda</div>
                                 </Col>
                                 <Col xs={3} className="kategori-bruk-col" >
-                                    <div>1500kr</div>
+                                    <div>50%</div>
                                 </Col>
                                 <Col xs={2} className="kategori-bruk-col" >
-                                    <div>60%</div>
+                                    <div>40 kr</div>
                                 </Col>
                             </Row>
                             <Row className="item-row">
@@ -67,13 +67,13 @@ function PengerSpart() {
                                 <div className="dot-blue"></div>
                                 </Col>
                                 <Col className="kategori-bruk-col">
-                                    <div>Sjømat</div>
+                                    <div>Andre Tilbud</div>
                                 </Col>
                                 <Col xs={3} className="kategori-bruk-col">
-                                    <div>Tall</div>
+                                    <div>30%</div>
                                 </Col>
                                 <Col xs={2} className="kategori-bruk-col">
-                                    <div>Prosent</div>
+                                    <div>27 kr</div>
                                 </Col>
                             </Row>
                             <Row className="item-row">
@@ -81,27 +81,13 @@ function PengerSpart() {
                                     <div className="dot-red"></div>
                                 </Col>
                                 <Col className="kategori-bruk-col">
-                                    <div>Snacks og godteri</div>
+                                    <div>Pant</div>
                                 </Col>
                                 <Col xs={3} className="kategori-bruk-col">
-                                    <div>Tall</div>
+                                    <div>20%</div>
                                 </Col>
                                 <Col xs={2} className="kategori-bruk-col">
-                                    <div>Prosent</div>
-                                </Col>
-                            </Row>
-                            <Row className="item-row">
-                                <Col xs={1} className="kategori-bruk-col">
-                                    <div className="dot-green"></div>
-                                </Col>
-                                <Col className="kategori-bruk-col">
-                                    <div>Snacks og godteri</div>
-                                </Col>
-                                <Col xs={3} className="kategori-bruk-col">
-                                    <div>Tall</div>
-                                </Col>
-                                <Col xs={2} className="kategori-bruk-col">
-                                    <div>Prosent</div>
+                                    <div>30 kr</div>
                                 </Col>
                             </Row>
                             <Row>

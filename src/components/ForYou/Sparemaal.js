@@ -13,7 +13,17 @@ function Sparemaal() {
             <Row className="row-progressbar">
                 <Col>
                     <div className="progressbar">
-                    <div className="progressbarfill"></div>
+                    <div className="progressbarfill">
+                        <Col>
+                        <div className="yellow-dot"></div>
+                        </Col>
+                        <Col>
+                        <div className="yellow-dot"></div>
+                        </Col>
+                        <Col>
+                        <div className="yellow-dot"></div>
+                        </Col>
+                    </div>
                     </div>
                 </Col>
             </Row>

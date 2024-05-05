@@ -38,7 +38,6 @@
 
 .kategori-bruk-container{
     height: 30rem;
-    
     border-radius: 10px;
     padding-top: 3rem;
     background-color: #F3EEE6;
@@ -94,6 +93,7 @@
 
 .line-chart{
     height: 30rem;
+    margin-left: 50px;
 }
 
 /* PENGER SPART */
@@ -129,10 +129,8 @@
     align-content: space-around;
 }
 .doughnut-chart-col{
-    display: flex;
-    flex-wrap: wrap;
     align-content: space-around;
-    justify-content: space-around;
+    margin-left: 50px;
 }
 
 .doughnut-chart{
