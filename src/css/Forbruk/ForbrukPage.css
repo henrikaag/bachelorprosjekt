@@ -1,3 +1,7 @@
+body {
+    height: 1500px;
+}
+
 /* Budsjett*/
 
 .budsjett-box {
@@ -34,4 +38,23 @@
     box-shadow: 0 2px 12px 0 rgba(66,64,61,0.08);
     padding: 15px;
     width: 100%;
+}
+
+/* Klimaavtrykk */
+
+.klimaavtrykk-box {
+    background-color: #FFFFFF;
+    border: 1px solid #D8D2CB;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px 0 rgba(66,64,61,0.08);
+    padding: 15px;
+    width: 100%;
+}
+
+.progressbar {
+    width:100%
+}
+
+.varer-box {
+    width: 41%;
 }

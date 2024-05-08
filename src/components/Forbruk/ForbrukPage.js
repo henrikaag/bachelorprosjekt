@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Budsjett from '../Forbruk/Budsjett';
 import Bestillinger from "./Bestillinger";
+import Klima from "./Klima";
 
 import '../../css/Forbruk/ForbrukPage.css';
 
@@ -16,6 +17,7 @@ function ForbrukPage() {
             <Bestillinger />
         </Col>
       </Row>
+      <Klima />
     </Container>
   );
 }
