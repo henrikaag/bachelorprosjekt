@@ -112,7 +112,7 @@ function KlimaAlt() {
                 </Col>
             </Row>
             <Row>
-            <Button className="klima-alt-btn">
+            <Button className="klima-alt-btn btn-warning">
                 Vis mer
             </Button>
             </Row>

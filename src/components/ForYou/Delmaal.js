@@ -60,7 +60,7 @@ function Delmaal() {
                     </div>
                 </Col>
             </Row>
-            <Button className="delmaal-vis-mer">
+            <Button className="delmaal-vis-mer btn-warning">
                 Vis mer
             </Button>
         </Container>

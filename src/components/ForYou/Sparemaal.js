@@ -11,17 +11,6 @@ function Sparemaal() {
                 <p className="sparemaal-text">Spar 300 Kr ved å handle varer på tilbud</p>
             </Row>
             <Row className="row-progressbar">
-                        <Row className="dot" xs={4}>
-                        <Col xs={2}>
-                        <div className="yellow-dot"></div>
-                        </Col>
-                        <Col xs={2}>
-                        <div className="yellow-dot"></div>
-                        </Col>
-                        <Col xs={2}>
-                        <div className="yellow-dot"></div>
-                        </Col>
-                        </Row>
                 <Col>
                     <div className="progressbar">
                     <div className="progressbarfill">
@@ -57,7 +46,7 @@ function Sparemaal() {
             </Row>
             <Row>
                 <div className="sparemaal-btn-div">
-                <Button className="sparemaal-btn btn-purple">Endre Sparemål</Button>
+                <Button className="sparemaal-btn btn-warning">Endre Sparemål</Button>
                 </div>
             </Row>
         </Container>

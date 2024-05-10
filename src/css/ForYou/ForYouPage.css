@@ -30,21 +30,6 @@
     align-items: center;
 }
 
-.yellow-dot{
-    width: 2.5rem;
-    height: 2.5rem;
-    border: 1px solid red;
-    position: absolute;
-}
-
-.dot{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    height: 3.5rem;
-    left: 12rem;
-    top: 18.4rem;
-}
 .sparemaal-headline {
     width: 100%;
     margin-bottom: 10px;
@@ -237,9 +222,6 @@
     align-items: end;
 }
 
-.bytt-ut-btn{
-    height: 2.5rem;
-}
 
 /* KLIMAVENNLIGE ALTERNATIVER */
 

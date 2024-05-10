@@ -40,7 +40,7 @@
     height: 30rem;
     border-radius: 10px;
     padding-top: 3rem;
-    background-color: #F3EEE6;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -83,11 +83,10 @@
 .line-chart-container{
     
     justify-content: center;
-    background-color: #F3EEE6;
+    background-color: #FFFFFF;
     border-radius: 10px;
     margin-bottom: 70px;
     height: 35rem;
-    width: 69rem;
 }
 
 
@@ -101,21 +100,21 @@
 .penger-spart-container{
     display: flex;
     flex-direction: column;
-    background-color: #F3EEE6;
+    background-color: #FFFFFF;
     border-radius: 10px;
     margin-bottom: 70px;
     height: 30rem;
-    width: 69rem;
+    
 }
 
 .filter-row{
     margin-top: 40px;
+    width: 5rem;
 }
 
-.filter-btn{
-    margin-top: 30px;
-    margin-left: 5px;
-    width: 5rem;
+.btn-warning{
+    width: 8rem;
+    
 }
 
 .doughnut-chart-col{

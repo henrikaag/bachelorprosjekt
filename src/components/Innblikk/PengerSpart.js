@@ -7,25 +7,8 @@ function PengerSpart() {
         <Container>
             <h1>Penger Spart</h1>
             <div className="penger-spart-container">
-                <Row classname="filter-row">
-                    <Col xs={1}>
-                        <Button className="filter-btn">1 MND</Button>
-                    </Col>
-                    <Col xs={1}>
-                        <Button className="filter-btn"> 3 MND </Button>
-                    </Col>
-                    <Col xs={1}>
-                        <Button className="filter-btn"> 6 MND </Button>
-                    </Col>
-                    <Col xs={1}>
-                        <Button className="filter-btn"> 1 ÅR </Button>
-                    </Col>
-                    <Col xs={1}>
-                        <Button className="filter-btn"> ALLE </Button>
-                    </Col>
-                </Row>
                 <Row>
-                    <Col xs={5} className="doughnut-chart-col">
+                    <Col xs={4} className="doughnut-chart-col">
                         
                             <div className="doughnut-chart"> 
                                 <Doughnut 

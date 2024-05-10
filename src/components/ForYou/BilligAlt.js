@@ -112,7 +112,7 @@ function BilligAlt() {
                 </Col>
             </Row>
             <Row>
-            <Button className="billig-alt-btn">
+            <Button className="billig-alt-btn btn-warning">
                 Vis mer
             </Button>
             </Row>
