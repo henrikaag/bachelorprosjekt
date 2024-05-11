@@ -5,8 +5,8 @@ import "../../css/Innblikk/Innblikk.css";
 function Filter() {
 
     return(
-        <Container>
-            <Row classname="">
+        <Container className="filter-row">
+            <Row>
             <Col>
                 <Button className="btn-warning">1 MND</Button>
             </Col>

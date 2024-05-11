@@ -34,6 +34,12 @@
     margin-bottom: 20px;
 }
 
+/* FILTER */
+
+.filter-row{
+    margin-bottom: 30px;
+}
+
 /* KATEGORI BRUK */
 
 .kategori-bruk-container{
@@ -81,8 +87,7 @@
 /* MÅNTLIG BRUK */ 
 
 .line-chart-container{
-    
-    justify-content: center;
+    text-align: center;
     background-color: #FFFFFF;
     border-radius: 10px;
     margin-bottom: 70px;
@@ -92,7 +97,7 @@
 
 .line-chart{
     height: 30rem;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 /* PENGER SPART */

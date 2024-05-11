@@ -32,6 +32,8 @@ function MaantligBruk() {
                     
                     />
                 </div>
+                <h6>Du handler i gjennomsnitt 1.3 ganger i uken</h6>
+                <p>awda</p>
             </div>
         </Container>
     )
