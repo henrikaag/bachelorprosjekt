@@ -21,7 +21,7 @@ function KlimaAlt() {
                                 <Card.Title>Pris</Card.Title>
                                 <Card.Text>Kilo</Card.Text>
                                 </Row>
-                                <Button className="bytt-ut-btn">Bytt ut</Button>
+                                <Button variant="outline-warning">Bytt ut</Button>
                             </Card.Body>
                     </Card>
                 </Col>
@@ -38,7 +38,7 @@ function KlimaAlt() {
                                 <Card.Title>Pris</Card.Title>
                                 <Card.Text>Kilo</Card.Text>
                                 </Row>
-                                <Button className="bytt-ut-btn">Bytt ut</Button>
+                                <Button variant="outline-warning">Bytt ut</Button>
                             </Card.Body>
                     </Card>
                 </Col>
@@ -55,7 +55,7 @@ function KlimaAlt() {
                                 <Card.Title>Pris</Card.Title>
                                 <Card.Text>Kilo</Card.Text>
                                 </Row>
-                                <Button className="bytt-ut-btn">Bytt ut</Button>
+                                <Button variant="outline-warning">Bytt ut</Button>
                             </Card.Body>
                     </Card>
                 </Col>
@@ -72,7 +72,7 @@ function KlimaAlt() {
                                 <Card.Title>Pris</Card.Title>
                                 <Card.Text>Kilo</Card.Text>
                                 </Row>
-                                <Button className="bytt-ut-btn">Bytt ut</Button>
+                                <Button variant="outline-warning">Bytt ut</Button>
                             </Card.Body>
                     </Card>
                 </Col>
@@ -89,7 +89,7 @@ function KlimaAlt() {
                                 <Card.Title>Pris</Card.Title>
                                 <Card.Text>Kilo</Card.Text>
                                 </Row>
-                                <Button className="bytt-ut-btn">Bytt ut</Button>
+                                <Button variant="outline-warning">Bytt ut</Button>
                             </Card.Body>
                     </Card>
                 </Col>
@@ -106,7 +106,7 @@ function KlimaAlt() {
                                 <Card.Title>Pris</Card.Title>
                                 <Card.Text>Kilo</Card.Text>
                                 </Row>
-                                <Button className="bytt-ut-btn">Bytt ut</Button>
+                                <Button variant="outline-warning">Bytt ut</Button>
                             </Card.Body>
                     </Card>
                 </Col>
