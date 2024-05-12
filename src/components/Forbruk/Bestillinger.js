@@ -9,18 +9,20 @@ function Bestillinger() {
                 <h1>Bestillinger</h1>
             </Row>
             </Container>
-            <Row>
-                <Col><Button className="filter-btn" variant="light">1 mnd</Button></Col>
-                <Col><Button className="filter-btn" variant="dark">3 mnd</Button></Col>
-                <Col><Button className="filter-btn" variant="light">6 mnd</Button></Col>
-                <Col><Button className="filter-btn" variant="light">1 år</Button></Col>
-                <Col><Button className="filter-btn" variant="light">Alle</Button></Col>
-            </Row>
             <Container>
-            {/* Skal fikse spacing på elementene her */}
-            <Row className="month-header">
-                <h4>Mars 2024</h4>
+            <Row>
+                <Col><Button className="filter-btn" variant="warning">1 mnd</Button></Col>
+                <Col><Button className="filter-btn" variant="warning">3 mnd</Button></Col>
+                <Col><Button className="filter-btn" variant="warning">6 mnd</Button></Col>
+                <Col><Button className="filter-btn" variant="warning">1 år</Button></Col>
+                <Col><Button className="filter-btn" variant="warning">Alle</Button></Col>
             </Row>
+            </Container>
+            <Container>
+            
+            
+                <h4 className="month-header">Mars 2024</h4>
+            
             <Container>
             <Row className="bestilling-card">
                 <Col>
@@ -34,9 +36,9 @@ function Bestillinger() {
             </Row>
             </Container>
 
-            <Row className="month-header">
-                <h4>April 2024</h4>
-            </Row>
+           
+                <h4 className="month-header">April 2024</h4>
+            
             <Container>
             <Row className="bestilling-card">
                 <Col>

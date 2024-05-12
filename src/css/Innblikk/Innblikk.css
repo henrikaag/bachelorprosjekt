@@ -117,10 +117,11 @@
     width: 5rem;
 }
 
-.btn-warning{
+/* Denne må nok endres på, den fucker opp de som bruker warning */
+/* .btn-warning{
     width: 8rem;
     
-}
+} */
 
 .doughnut-chart-col{
     width: auto;

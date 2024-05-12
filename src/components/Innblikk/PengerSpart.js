@@ -5,7 +5,7 @@ import { Chart as ChartJS } from "chart.js/auto";
 function PengerSpart() {
     return(
         <Container>
-            <h1>Penger Spart</h1>
+            <h1>Penger spart</h1>
             <div className="penger-spart-container">
                 <Row>
                     <Col xs={4} className="doughnut-chart-col">

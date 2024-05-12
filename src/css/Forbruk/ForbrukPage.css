@@ -7,13 +7,15 @@ body {
 .budsjett-box {
     padding-top: 25px;
     width: 30rem;
-    border: 1px solid #D8D2CB;
     justify-content: center;
     text-align: center;
     background-color: #FFFFFF;
     border-radius: 8px;
     box-shadow: 0 2px 12px 0 rgba(66,64,61,0.08);
+}
 
+.endre-budsjett-btn {
+    margin-top: 2%;
 }
 
 .divider-line {
@@ -26,29 +28,37 @@ body {
 
 /* Bestillinger */
 
-.filter-btn {
-    border-color: #D8D2CB !important;
-    border-width: 2px !important;
-}
-
 .bestilling-card {
     background-color: #FFFFFF;
-    border: 1px solid #D8D2CB;
     border-radius: 8px;
     box-shadow: 0 2px 12px 0 rgba(66,64,61,0.08);
     padding: 15px;
     width: 100%;
+    margin-top: 20px;
+}
+
+.month-header {
+    margin-top: 2%;
 }
 
 /* Klimaavtrykk */
 
-.klimaavtrykk-box {
+.klima-box {
+    padding-top: 25px;
+    width: 30rem;
+    
+    justify-content: center;
     background-color: #FFFFFF;
-    border: 1px solid #D8D2CB;
     border-radius: 8px;
     box-shadow: 0 2px 12px 0 rgba(66,64,61,0.08);
-    padding: 15px;
-    width: 100%;
+}
+
+.klima-box-tip {
+    padding-top: 25px;
+    width: 30rem;
+    justify-content: center;
+    background-color: #F3EEE6;
+    border-radius: 8px;
 }
 
 .progressbar {
@@ -57,4 +67,17 @@ body {
 
 .varer-box {
     width: 41%;
+}
+
+.plane-img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vis-varer-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+    
 }

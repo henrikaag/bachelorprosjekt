@@ -1,40 +1,42 @@
 import { Col, Container, Row, Button } from "react-bootstrap";
 
-import ProgressBar from 'react-bootstrap/ProgressBar';
-import { useContext } from 'react';
-import Accordion from 'react-bootstrap/Accordion';
-import AccordionContext from 'react-bootstrap/AccordionContext';
-import { useAccordionButton } from 'react-bootstrap/AccordionButton';
-import Card from 'react-bootstrap/Card';
-import Badge from 'react-bootstrap/Badge';
+import ProgressBar from "react-bootstrap/ProgressBar";
+import { useContext } from "react";
+import Accordion from "react-bootstrap/Accordion";
+import AccordionContext from "react-bootstrap/AccordionContext";
+import { useAccordionButton } from "react-bootstrap/AccordionButton";
+import Card from "react-bootstrap/Card";
+import Badge from "react-bootstrap/Badge";
 
-const GREY_NOTCLICKED = 'rgba(27, 27, 27, 0.54)';
-const GREY_CLICKED = 'rgba(7, 7, 7, 0.76)';
+const ORANGE_NOTCLICKED = "rgba(243, 170, 63, 0.8)";
+const ORANGE_CLICKED = "rgba(230, 136, 0, 0.8)";
 
 function ContextAwareToggle({ children, eventKey, callback }) {
-    const { activeEventKey } = useContext(AccordionContext);
-  
-    const decoratedOnClick = useAccordionButton(
-      eventKey,
-      () => callback && callback(eventKey),
-    );
-  
-    const isCurrentEventKey = activeEventKey === eventKey;
-  
-    return (
-      <button
-        type="button"
-        style={{ backgroundColor: isCurrentEventKey ? GREY_NOTCLICKED : GREY_CLICKED }}
-        onClick={decoratedOnClick}
-      >
-        {children}
-      </button>
-    );
-  }
+  const { activeEventKey } = useContext(AccordionContext);
+
+  const decoratedOnClick = useAccordionButton(
+    eventKey,
+    () => callback && callback(eventKey)
+  );
+
+  const isCurrentEventKey = activeEventKey === eventKey;
+
+  return (
+    <button
+      type="button"
+      className="vis-varer-btn"
+      style={{
+        backgroundColor: isCurrentEventKey ? ORANGE_NOTCLICKED : ORANGE_CLICKED,
+      }}
+      onClick={decoratedOnClick}
+    >
+      {children}
+    </button>
+  );
+}
 
 function Klima() {
-
-    return(
+  return (
     <Container className="ditt-klimaavtrykk">
       <Container>
         <Row className="header">
@@ -42,151 +44,194 @@ function Klima() {
         </Row>
       </Container>
 
-      <Row className="klimaavtrykk-box">
+      <Row>
         <Col>
-          <div className="klimaavtrykk-content-left">
-            <h4>image</h4>
-          </div>
-        </Col>
-        <Col>
-          <div className="klimaavtrykk-content-mid">
-            <h4>Totalt klimautslipp denne måneden</h4>
+          <Row className="klima-box">
+            <Row>
+              <div className="budsjett-content-top">
+                <h5>Tid spart denne måneden</h5>
+                <br></br>
+              </div>
+            </Row>
+
+            <Row className="budsjett-content-bot">
+              <Col>
+                <h4>9,5kg C02</h4>
+              </Col>
+              <Col>
+                <h4>14 kg mat</h4>
+              </Col>
+            </Row>
+            <Row>
             <Col>
-            <p>9,5kg C02</p>
-            <p>9,5kg C02</p>
-            </Col>
-          </div>
+                <p>Dette tilsvarer en enveis flytur over Atlanterhavet</p>
+                <img
+                src={require(`../../img/plane.png`)}
+                alt="oda-logo"
+                width={50}
+                height={50}
+                className="plane-img"
+              />
+              </Col>
+            </Row>
+          </Row>
         </Col>
+
         <Col>
-          <div className="klimaavtrykk-content-right">
-            <h4>infoicon</h4>
-          </div>
+          <Row className="klima-box-tip">
+            <Row>
+              <div className="budsjett-content-top">
+                <h5>Hva tilsvarer egentlig 1kg C02 utslipp?</h5>
+                <br></br>
+              </div>
+            </Row>
+
+            <Row className="budsjett-content-bot">
+              <Row><p>- Å kjøre en bensindrevet bil i ca. 5 km.</p></Row>
+              <Row><p>- Å produsere omtrent 2,3 liter melk i konvensjonell melkeproduksjon.</p></Row>
+              <Row><p>- Å bruke elektrisitet til å koke vann i en vannkoker til te eller kaffe rundt 100 ganger.</p></Row>
+            </Row>
+            <Row>
+            <Col>
+
+              </Col>
+            </Row>
+          </Row>
         </Col>
+
       </Row>
 
+      <br></br>
+
       <h4>Klimautslipp fra dine siste handleturer</h4>
-      <p>Grafen viser omtrent hvor mye CO2 varene i bestillingene dine tilsvarer, og hvilke utslippskategorier varene er i</p>
+      <p>
+        Grafen viser omtrent hvor mye CO2 varene i bestillingene dine tilsvarer,
+        og hvilke utslippskategorier varene er i
+      </p>
 
       <Accordion defaultActiveKey="0">
-      <Card>
-        <Card.Header>
-            <p>21. Januar - 24 matvarer</p>
+        <Card>
+          <Card.Header>
+            <p><b>21. Januar</b> - 24 matvarer</p>
             <Row>
-            <Col>
-        <ProgressBar className="progressbar">
-            <ProgressBar variant="danger" now={70} key={1} />
-            <ProgressBar variant="warning" now={15} key={2} />
-            <ProgressBar variant="success" now={15} key={3} />
-        </ProgressBar>
-        </Col>
-        <Col>
-            2,4kg C02/kg
-        </Col>
-        <Col>
-          <ContextAwareToggle eventKey="0">Se varer</ContextAwareToggle>
-          </Col>
-          </Row>
-        </Card.Header>
+              <Col>
+                <ProgressBar className="progressbar">
+                  <ProgressBar variant="danger" now={70} key={1} />
+                  <ProgressBar variant="warning" now={15} key={2} />
+                  <ProgressBar variant="success" now={15} key={3} />
+                </ProgressBar>
+              </Col>
+              <Col>2,4kg C02/kg</Col>
+              <Col>
+                <ContextAwareToggle eventKey="0">Se varer</ContextAwareToggle>
+              </Col>
+            </Row>
+          </Card.Header>
 
-        <Accordion.Collapse eventKey="0">
+          <Accordion.Collapse eventKey="0">
             <Card.Body className="varer-box">
-                <Row>
-                    <Col>
-                    <Badge bg="danger">70%</Badge>
-                    </Col>
+              <Row>
+                <Col>
+                  <Badge bg="danger">70%</Badge>
+                </Col>
 
-                    <Col>
-                    <p>Veldig høyt utslipp (10kg C02)</p>
-                    <u><p>Vis varer</p></u>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                    <Badge bg="warning">15%</Badge>
-                    </Col>
+                <Col>
+                  <p>Veldig høyt utslipp (10kg C02)</p>
+                  <u>
+                    <p>Vis varer</p>
+                  </u>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Badge bg="warning">15%</Badge>
+                </Col>
 
-                    <Col>
-                    <p>Medium høyt utslipp (10kg C02)</p>
-                    <u><p>Vis varer</p></u>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                    <Badge bg="success">15%</Badge>
-                    </Col>
+                <Col>
+                  <p>Medium høyt utslipp (10kg C02)</p>
+                  <u>
+                    <p>Vis varer</p>
+                  </u>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Badge bg="success">15%</Badge>
+                </Col>
 
-                    <Col>
-                    <p>Lavt utslipp (10kg C02)</p>
-                    <u><p>Vis varer</p></u>
-                    </Col>
-                </Row>
-            
+                <Col>
+                  <p>Lavt utslipp (10kg C02)</p>
+                  <u>
+                    <p>Vis varer</p>
+                  </u>
+                </Col>
+              </Row>
             </Card.Body>
-        </Accordion.Collapse>
-      </Card>
+          </Accordion.Collapse>
+        </Card>
 
-
-      <Card>
-        <Card.Header>
-            <p>21. Januar - 24 matvarer</p>
+        <Card>
+          <Card.Header>
+            <p><b>28. Januar</b> - 29 matvarer</p>
             <Row>
-            <Col>
-        <ProgressBar className="progressbar">
-            <ProgressBar variant="danger" now={70} key={1} />
-            <ProgressBar variant="warning" now={15} key={2} />
-            <ProgressBar variant="success" now={15} key={3} />
-        </ProgressBar>
-        </Col>
-        <Col>
-            2,4kg C02/kg
-        </Col>
-        <Col>
-          <ContextAwareToggle eventKey="1">Se varer</ContextAwareToggle>
-          </Col>
-          </Row>
-        </Card.Header>
+              <Col>
+                <ProgressBar className="progressbar">
+                  <ProgressBar variant="danger" now={70} key={1} />
+                  <ProgressBar variant="warning" now={15} key={2} />
+                  <ProgressBar variant="success" now={15} key={3} />
+                </ProgressBar>
+              </Col>
+              <Col>5,4kg C02/kg</Col>
+              <Col>
+                <ContextAwareToggle eventKey="1">Se varer</ContextAwareToggle>
+              </Col>
+            </Row>
+          </Card.Header>
 
-        <Accordion.Collapse eventKey="1">
+          <Accordion.Collapse eventKey="1">
             <Card.Body className="varer-box">
-                <Row>
-                    <Col>
-                    <Badge bg="danger">70%</Badge>
-                    </Col>
+              <Row>
+                <Col>
+                  <Badge bg="danger">70%</Badge>
+                </Col>
 
-                    <Col>
-                    <p>Veldig høyt utslipp (10kg C02)</p>
-                    <u><p>Vis varer</p></u>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                    <Badge bg="warning">15%</Badge>
-                    </Col>
+                <Col>
+                  <p>Veldig høyt utslipp (10kg C02)</p>
+                  <u>
+                    <p>Vis varer</p>
+                  </u>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Badge bg="warning">15%</Badge>
+                </Col>
 
-                    <Col>
-                    <p>Medium høyt utslipp (10kg C02)</p>
-                    <u><p>Vis varer</p></u>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                    <Badge bg="success">15%</Badge>
-                    </Col>
+                <Col>
+                  <p>Medium høyt utslipp (10kg C02)</p>
+                  <u>
+                    <p>Vis varer</p>
+                  </u>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Badge bg="success">15%</Badge>
+                </Col>
 
-                    <Col>
-                    <p>Lavt utslipp (10kg C02)</p>
-                    <u><p>Vis varer</p></u>
-                    </Col>
-                </Row>
-            
+                <Col>
+                  <p>Lavt utslipp (10kg C02)</p>
+                  <u>
+                    <p>Vis varer</p>
+                  </u>
+                </Col>
+              </Row>
             </Card.Body>
-        </Accordion.Collapse>
-      </Card>
-    </Accordion>
-        
-      </Container>
-
-    )
+          </Accordion.Collapse>
+        </Card>
+      </Accordion>
+    </Container>
+  );
 }
 
 export default Klima;
