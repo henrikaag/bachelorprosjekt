@@ -8,19 +8,19 @@ function Filter() {
         <Container className="filter-row">
             <Row>
             <Col>
-                <Button className="btn-warning">1 MND</Button>
+                <Button className="filter-btn btn-warning">1 MND</Button>
             </Col>
             <Col>
-                <Button className="btn-warning"> 3 MND </Button>
+                <Button className="filter-btn btn-warning"> 3 MND </Button>
             </Col>
             <Col>
-                <Button className="btn-warning"> 6 MND </Button>
+                <Button className="filter-btn btn-warning"> 6 MND </Button>
             </Col>
             <Col>
-                <Button className="btn-warning"> 1 ÅR </Button>
+                <Button className="filter-btn btn-warning"> 1 ÅR </Button>
             </Col>
             <Col>
-                <Button className="btn-warning"> ALLE </Button>
+                <Button className="filter-btn btn-warning"> ALLE </Button>
             </Col>
         </Row>
     </Container>

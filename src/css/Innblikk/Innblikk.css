@@ -114,12 +114,9 @@
 
 .filter-row{
     margin-top: 40px;
-    width: 5rem;
 }
-
-.btn-warning{
+.filter-btn{
     width: 8rem;
-    
 }
 
 .doughnut-chart-col{
