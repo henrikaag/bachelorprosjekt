@@ -211,15 +211,12 @@
 
 /* VARE-CARD */
 
-.vare {
-    width: 13rem;
-}
+
 
 .vare-body{
-    height: 10rem;
     display: flex;
-    flex-wrap: wrap;
-    align-items: end;
+    flex-direction: column;
+       
 }
 
 

@@ -1,6 +1,4 @@
 import { Card, Container, Row, Col, Button } from "react-bootstrap";
-import { useState } from 'react';
-import Modal from 'react-bootstrap/Modal';
 import BilligModal from "./Modals/BilligModal";
 
 function BilligAlt() {
@@ -17,12 +15,12 @@ function BilligAlt() {
                         </Card.Img>
                         <Card.Body className="vare-body">
                                 <Row>
-                                <Card.Title> Jasminris </Card.Title>
+                                <Card.Title> Jasminris Boil In Bag </Card.Title>
                                 <Card.Text>8 poser, 960 g</Card.Text>
                                 </Row>
                                 <Row className="mt-4">
-                                <Card.Title>24, </Card.Title>
-                                <Card.Text>25 </Card.Text>
+                                <Card.Title>24,90 kr </Card.Title>
+                                <Card.Text>25,94 pr/kg </Card.Text>
                                 </Row>
                                 <BilligModal/>
                             </Card.Body>
@@ -30,33 +28,16 @@ function BilligAlt() {
                 </Col>
                 <Col className="px-1">
                     <Card className="vare">
-                        <Card.Img variant="top" src={require(`../../img/boil-in-bag.jpeg`)}>
+                        <Card.Img variant="top" src={require(`../../img/cola1.jpg`)}>
                         </Card.Img>
                         <Card.Body className="vare-body">
                                 <Row>
-                                <Card.Title> Vare </Card.Title>
-                                <Card.Text>Info</Card.Text>
+                                <Card.Title> Coca-Cola </Card.Title>
+                                <Card.Text>Boks, 0,33 l</Card.Text>
                                 </Row>
                                 <Row className="mt-4">
-                                <Card.Title>Pris</Card.Title>
-                                <Card.Text>Kilo</Card.Text>
-                                </Row>
-                                <Button className="btn-warning">Bytt ut</Button>
-                            </Card.Body>
-                    </Card>
-                </Col>
-                <Col className="px-1">
-                    <Card className="vare">
-                        <Card.Img variant="top" src={require(`../../img/boil-in-bag.jpeg`)}>
-                        </Card.Img>
-                        <Card.Body className="vare-body">
-                                <Row>
-                                <Card.Title> Vare </Card.Title>
-                                <Card.Text>Info</Card.Text>
-                                </Row>
-                                <Row className="mt-4">
-                                <Card.Title>Pris</Card.Title>
-                                <Card.Text>Kilo</Card.Text>
+                                <Card.Title>19,90 kr</Card.Title>
+                                <Card.Text>60,30 kr/l</Card.Text>
                                 </Row>
                                 <Button className="btn-warning">Bytt ut</Button>
                             </Card.Body>
@@ -121,37 +102,6 @@ function BilligAlt() {
             </Row>
         </Container> 
     )
-    
-
-    function Example() {
-        const [show, setShow] = useState(false);
-      
-        const handleClose = () => setShow(false);
-        const handleShow = () => setShow(true);
-      
-        return (
-          <>
-            <Button variant="primary" onClick={handleShow}>
-              Launch demo modal
-            </Button>
-      
-            <Modal show={show} onHide={handleClose}>
-              <Modal.Header closeButton>
-                <Modal.Title>Modal heading</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
-              <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>
-                  Close
-                </Button>
-                <Button variant="primary" onClick={handleClose}>
-                  Save Changes
-                </Button>
-              </Modal.Footer>
-            </Modal>
-          </>
-        );
-      }
 }
 
 export default BilligAlt; 
