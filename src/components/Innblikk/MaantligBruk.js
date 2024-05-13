@@ -3,6 +3,7 @@ import { Line } from "react-chartjs-2";
 import { Container } from "react-bootstrap";
 
 
+
 function MaantligBruk() {
     return(
 
