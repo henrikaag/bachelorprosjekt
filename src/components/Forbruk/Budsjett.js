@@ -29,7 +29,9 @@ function Budsjett() {
           </Col>
         </Row>
       </Row>
-      <Button variant="dark">Endre budsjett</Button>
+      
+      <Button className="endre-budsjett-btn" variant="warning">Endre budsjett</Button>
+      
     </Container>
   );
 }

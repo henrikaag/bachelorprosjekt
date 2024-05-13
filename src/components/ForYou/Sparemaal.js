@@ -7,8 +7,8 @@ function Sparemaal() {
     return(
         <Container className="sparemaal-container">
             <Row>
-                <h1 className="sparemaal-headline">SPAREMÅL</h1>
-                <p className="sparemaal-text">Spar 300 Kr ved å handle varer på tilbud</p>
+                <h1 className="sparemaal-headline">Sparemål</h1>
+                <p className="sparemaal-text">Spar 300kr ved å handle varer på tilbud</p>
             </Row>
             <Row className="row-progressbar">
                 <Col>
