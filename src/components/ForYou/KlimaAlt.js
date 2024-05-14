@@ -4,7 +4,7 @@ function KlimaAlt() {
     return(
         <Container className="klima-alt-container">
             <Row>
-            <h1>KLIMAVENNLIGE ALTERNATIVER</h1>
+            <h1>Klimavennlige alternativer</h1>
             <p>Varer du ofte hanler, som har et mer klimavennlig alternativ</p>
             </Row>
             <Row className="klima-alt-row">

@@ -7,7 +7,7 @@ function Delmaal() {
     return(
         <Container className="delmaal-container">
             <Row className="delmaal-text">
-                <h1>DELMÅL</h1>
+                <h1>Delmål</h1>
                 <p>Delmål du har gitt deg selv, eller du har valgt fra Oda</p>
             </Row>
             <Row className="delmaal-content-1">

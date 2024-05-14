@@ -5,7 +5,7 @@ function TidSpart() {
     return(
         <Container className="tid-spart-container">
             <Row className="tid-spart-text">
-                <h1>TID SPART</h1>
+                <h1>Tid spart</h1>
                 <p>Se timene du har spart ved å handle hos Oda</p>
             </Row>
             <Row className="tid-spart-content">
