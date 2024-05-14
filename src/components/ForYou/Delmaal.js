@@ -1,5 +1,7 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
+import { Chart } from "chart.js/auto";
 import { Doughnut } from "react-chartjs-2";
+
 
 function Delmaal() {
     return(

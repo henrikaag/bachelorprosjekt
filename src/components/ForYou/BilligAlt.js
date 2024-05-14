@@ -11,23 +11,6 @@ function BilligAlt() {
             <Row className="billig-alt-row">
                 <Col className="px-1">
                     <Card className="vare">
-                        <Card.Img variant="top" src={require(`../../img/boil-in-bag.jpeg`)}>
-                        </Card.Img>
-                        <Card.Body className="vare-body">
-                                <Row>
-                                <Card.Title> Jasminris Boil In Bag </Card.Title>
-                                <Card.Text>8 poser, 960 g</Card.Text>
-                                </Row>
-                                <Row className="mt-4">
-                                <Card.Title>24,90 kr </Card.Title>
-                                <Card.Text>25,94 pr/kg </Card.Text>
-                                </Row>
-                                <BilligModal/>
-                            </Card.Body>
-                    </Card>
-                </Col>
-                <Col className="px-1">
-                    <Card className="vare">
                         <Card.Img variant="top" src={require(`../../img/cola1.jpg`)}>
                         </Card.Img>
                         <Card.Body className="vare-body">
@@ -39,7 +22,7 @@ function BilligAlt() {
                                 <Card.Title>19,90 kr</Card.Title>
                                 <Card.Text>60,30 kr/l</Card.Text>
                                 </Row>
-                                <Button className="btn-warning">Bytt ut</Button>
+                                <BilligModal/>
                             </Card.Body>
                     </Card>
                 </Col>
@@ -49,12 +32,12 @@ function BilligAlt() {
                         </Card.Img>
                         <Card.Body className="vare-body">
                                 <Row>
-                                <Card.Title> Vare </Card.Title>
-                                <Card.Text>Info</Card.Text>
+                                <Card.Title> Jasminris </Card.Title>
+                                <Card.Text>8 poser, 960 g</Card.Text>
                                 </Row>
                                 <Row className="mt-4">
-                                <Card.Title>Pris</Card.Title>
-                                <Card.Text>Kilo</Card.Text>
+                                <Card.Title>24,90 kr </Card.Title>
+                                <Card.Text>25,94 pr/kg </Card.Text>
                                 </Row>
                                 <Button className="btn-warning">Bytt ut</Button>
                             </Card.Body>
@@ -62,16 +45,16 @@ function BilligAlt() {
                 </Col>
                 <Col className="px-1">
                     <Card className="vare">
-                        <Card.Img variant="top" src={require(`../../img/boil-in-bag.jpeg`)}>
+                        <Card.Img variant="top" src={require(`../../img/Kjøttdeig.jpg`)}>
                         </Card.Img>
                         <Card.Body className="vare-body">
                                 <Row>
-                                <Card.Title> Vare </Card.Title>
-                                <Card.Text>Info</Card.Text>
+                                <Card.Title> Kjøttdeig </Card.Title>
+                                <Card.Text>Gilde, 400g</Card.Text>
                                 </Row>
                                 <Row className="mt-4">
-                                <Card.Title>Pris</Card.Title>
-                                <Card.Text>Kilo</Card.Text>
+                                <Card.Title>67,60 kr</Card.Title>
+                                <Card.Text>169,00 pr/kg</Card.Text>
                                 </Row>
                                 <Button className="btn-warning">Bytt ut</Button>
                             </Card.Body>
@@ -79,16 +62,33 @@ function BilligAlt() {
                 </Col>
                 <Col className="px-1">
                     <Card className="vare">
-                        <Card.Img variant="top" src={require(`../../img/boil-in-bag.jpeg`)}>
+                        <Card.Img variant="top" src={require(`../../img/Egg.jpg`)}>
                         </Card.Img>
                         <Card.Body className="vare-body">
                                 <Row>
-                                <Card.Title> Vare </Card.Title>
-                                <Card.Text>Info</Card.Text>
+                                <Card.Title> Prior Egg</Card.Title>
+                                <Card.Text>Strl M, 12 Stk</Card.Text>
                                 </Row>
                                 <Row className="mt-4">
-                                <Card.Title>Pris</Card.Title>
-                                <Card.Text>Kilo</Card.Text>
+                                <Card.Title>46,90 kr</Card.Title>
+                                <Card.Text>64,25 kr/kg</Card.Text>
+                                </Row>
+                                <Button className="btn-warning">Bytt ut</Button>
+                            </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="px-1">
+                    <Card className="vare">
+                        <Card.Img variant="top" src={require(`../../img/Melk.jpg`)}>
+                        </Card.Img>
+                        <Card.Body className="vare-body">
+                                <Row>
+                                <Card.Title> Tine Lettmelk </Card.Title>
+                                <Card.Text>1% fett, 1 l, Tine</Card.Text>
+                                </Row>
+                                <Row className="mt-4">
+                                <Card.Title>21,30 kr</Card.Title>
+                                <Card.Text>21,30 pr/l</Card.Text>
                                 </Row>
                                 <Button className="btn-warning">Bytt ut</Button>
                             </Card.Body>

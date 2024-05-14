@@ -216,7 +216,10 @@
 .vare-body{
     display: flex;
     flex-direction: column;
-       
+}
+
+.card-img-top{
+    aspect-ratio: 9/6;
 }
 
 

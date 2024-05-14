@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { Chart } from "chart.js/auto";
 import { Doughnut } from "react-chartjs-2";
 
 function PengerSpart() {
