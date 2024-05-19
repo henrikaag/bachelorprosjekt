@@ -22,7 +22,7 @@ function KategoriBruk() {
                             <div>1500kr</div>
                         </Col>
                         <Col xs={2} className="kategori-bruk-col" >
-                            <div>60%</div>
+                            <div>45%</div>
                         </Col>
                     </Row>
                     <Row className="item-row">
@@ -30,13 +30,13 @@ function KategoriBruk() {
                         <div className="dot-blue"></div>
                         </Col>
                         <Col className="kategori-bruk-col">
-                            <div>Sjømat</div>
+                            <div>Frukt og Grønt</div>
                         </Col>
                         <Col xs={3} className="kategori-bruk-col">
-                            <div>Tall</div>
+                            <div>700 kr</div>
                         </Col>
                         <Col xs={2} className="kategori-bruk-col">
-                            <div>Prosent</div>
+                            <div>25%</div>
                         </Col>
                     </Row>
                     <Row className="item-row">
@@ -44,13 +44,13 @@ function KategoriBruk() {
                             <div className="dot-red"></div>
                         </Col>
                         <Col className="kategori-bruk-col">
-                            <div>Snacks og godteri</div>
+                            <div>Karbohydrater</div>
                         </Col>
                         <Col xs={3} className="kategori-bruk-col">
-                            <div>Tall</div>
+                            <div>900 kr</div>
                         </Col>
                         <Col xs={2} className="kategori-bruk-col">
-                            <div>Prosent</div>
+                            <div>30%</div>
                         </Col>
                     </Row>
                     <Row className="item-row">
@@ -61,10 +61,10 @@ function KategoriBruk() {
                             <div>Snacks og godteri</div>
                         </Col>
                         <Col xs={3} className="kategori-bruk-col">
-                            <div>Tall</div>
+                            <div>200 kr</div>
                         </Col>
                         <Col xs={2} className="kategori-bruk-col">
-                            <div>Prosent</div>
+                            <div>10%</div>
                         </Col>
                     </Row>
                     </div>

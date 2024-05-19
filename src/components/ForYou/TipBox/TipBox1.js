@@ -21,10 +21,9 @@ function TipBox1() {
             </Col>
             <Col>
               <div className="tip-box-1-text">
-                <h5 className="tip-header">This is a useful tip for the customer</h5>
+                <h5 className="tip-header">Mathandel på tom mage</h5>
                 <p>
-                  Put them in the shopping cart, go to the checkout, and pay as
-                  usual.
+                  Ikke handle på tom mage. Da reduserer du impulskjøp.
                 </p>
               </div>
             </Col>

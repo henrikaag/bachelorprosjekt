@@ -33,8 +33,9 @@ function MaantligBruk() {
                     
                     />
                 </div>
+                <p>Denne grafen illustrerer hvordan pengeforbruket ditt har utviklet seg gjennom en måned. Den viser dine totalbeløp i utgifter, med markerte punkter på datoene du handlet hos Oda. Dette er tatt utgangspunkt i ditt nåværende matbudsjett.</p>
                 <h6>Du handler i gjennomsnitt 1.3 ganger i uken</h6>
-                <p>Denne grafen viser en oversikt over hvilke dager du bestiller mat fra Oda.  </p>
+                <p>Prøv å redusere handleturene til en gang i uken. Dette vil på sikt redusere impulskjøp og gi bedre oversikt over hvilke matvarer en trenger</p>
             </div>
         </Container>
     )

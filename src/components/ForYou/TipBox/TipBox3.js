@@ -21,10 +21,9 @@ function TipBox3() {
             </Col>
             <Col>
               <div className="tip-box-3-text">
-                <h5 className="tip-header">This is a useful tip for the customer</h5>
+                <h5 className="tip-header">Benytt deg av Oda XL</h5>
                 <p>
-                  Put them in the shopping cart, go to the checkout, and pay as
-                  usual.
+                  Handle større mengder av basisvarer som ris, pasta og belgfrukter , da disse ofte er billigere i bulk. Dette finner du i kategorien Oda XL. 
                 </p>
               </div>
             </Col>

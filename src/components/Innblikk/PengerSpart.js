@@ -20,7 +20,7 @@ function PengerSpart() {
                                                 backgroundColor: [
                                                     "rgba(230,168,0)",
                                                     "rgba(77, 140, 184",
-                                                    "rgba(43, 118, 16"
+                                                    "rgba(194, 80, 71"
                                                 ],
                                             },
                                         ],

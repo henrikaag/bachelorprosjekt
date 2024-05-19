@@ -38,10 +38,10 @@ function Delmaal() {
             </Row>
             <Row className="delmaal-content-2">
                 <Col>
-                    <h4>Handle mer grønt</h4>
-                    <p>Kjøp fem varer fra Frukt og Grønt kategorien denne uken</p>
-                    <h5>3 Varer</h5>
-                    <h6>av 5 handlet</h6>
+                    <h4>Årsbruk på mathandel</h4>
+                    <p>Hold deg innenfor dette budsjettet i løpet av året</p>
+                    <h5>15 300 kr</h5>
+                    <h6>av 102 000 kr</h6>
                 </Col>
                 <Col>
                     <div className="doughnut-chart-delmaal"> 
@@ -50,7 +50,7 @@ function Delmaal() {
                                 labels: [],
                                     datasets: [
                                     {
-                                        data: [80, 20],
+                                        data: [25, 75],
                                         backgroundColor: [
                                             "rgba(230,168,0)",
                                             "rgba(32, 32, 32",

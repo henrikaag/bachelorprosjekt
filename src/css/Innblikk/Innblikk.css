@@ -17,7 +17,7 @@
 .dot-red {
     height: 1.5rem;
     width: 2rem;
-    background-color: #C25047;
+    background-color: #c25047;
     border-radius: 10px;
 }
 
@@ -91,13 +91,19 @@
     background-color: #FFFFFF;
     border-radius: 10px;
     margin-bottom: 70px;
-    height: 35rem;
+    height: 43rem;
+    padding: 8px 40px 8px 40px;
 }
 
 
 .line-chart{
-    height: 30rem;
-    margin-left: 80px;
+    height: 33rem;
+    padding-left: 40px;
+    
+}
+
+.maantlig-bruk-text{
+    width: 30rem;
 }
 
 /* PENGER SPART */

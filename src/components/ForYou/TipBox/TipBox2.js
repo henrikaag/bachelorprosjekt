@@ -21,10 +21,9 @@ function TipBox2() {
             </Col>
             <Col>
               <div className="tip-box-2-text">
-                <h5 className="tip-header">This is a useful tip for the customer</h5>
+                <h5 className="tip-header">Reduser matavfall</h5>
                 <p>
-                  Put them in the shopping cart, go to the checkout, and pay as
-                  usual.
+                  Ikke kast mat. bruk heller Oda til å lage deilige restemiddager. Ved å redusere matsvinn sparer du både penger og miljøet. 
                 </p>
               </div>
             </Col>
