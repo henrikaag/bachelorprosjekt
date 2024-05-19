@@ -26,7 +26,7 @@ function Bestillinger() {
             <Container>
             <Row className="bestilling-card">
                 <Col>
-                    <p>Ons 14. Februar, 15:02</p>
+                    <p>Ons 19. Mars, 12:02</p>
                     <p>Slottsplassen 1, 0010 Oslo</p>
                     <a href="url">Se kategorifordeling</a>
                 </Col>
@@ -42,7 +42,7 @@ function Bestillinger() {
             <Container>
             <Row className="bestilling-card">
                 <Col>
-                    <p>Ons 14. Februar, 15:02</p>
+                    <p>Ons 14. April, 15:07</p>
                     <p>Slottsplassen 1, 0010 Oslo</p>
                     <a href="url">Se kategorifordeling</a>
                 </Col>

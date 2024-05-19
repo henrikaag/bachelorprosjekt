@@ -229,6 +229,7 @@ function Klima() {
             </Card.Body>
           </Accordion.Collapse>
         </Card>
+        
       </Accordion>
     </Container>
   );

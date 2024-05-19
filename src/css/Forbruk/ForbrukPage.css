@@ -26,6 +26,10 @@ body {
     color: #2B7610;
 }
 
+.filter-btn {
+    width: 75%
+}
+
 /* Bestillinger */
 
 .bestilling-card {

@@ -5,7 +5,7 @@ function BilligAlt() {
     return(
         <Container className="billig-alt-container">
             <Row>
-            <h1>VARER MED BILLIGERE ALTERNATIVER</h1>
+            <h1>Varer med billigere alternativer</h1>
             <p>Varer du ofte handler, som har et billigere alternativ</p>
             </Row>
             <Row className="billig-alt-row">
@@ -39,7 +39,7 @@ function BilligAlt() {
                                 <Card.Title>24,90 kr </Card.Title>
                                 <Card.Text>25,94 pr/kg </Card.Text>
                                 </Row>
-                                <Button className="btn-warning">Bytt ut</Button>
+                                <Button className="btn-warning bytt-ut-btn">Bytt ut</Button>
                             </Card.Body>
                     </Card>
                 </Col>
@@ -56,7 +56,7 @@ function BilligAlt() {
                                 <Card.Title>67,60 kr</Card.Title>
                                 <Card.Text>169,00 pr/kg</Card.Text>
                                 </Row>
-                                <Button className="btn-warning">Bytt ut</Button>
+                                <Button className="btn-warning bytt-ut-btn">Bytt ut</Button>
                             </Card.Body>
                     </Card>
                 </Col>
@@ -73,7 +73,7 @@ function BilligAlt() {
                                 <Card.Title>46,90 kr</Card.Title>
                                 <Card.Text>64,25 kr/kg</Card.Text>
                                 </Row>
-                                <Button className="btn-warning">Bytt ut</Button>
+                                <Button className="btn-warning bytt-ut-btn">Bytt ut</Button>
                             </Card.Body>
                     </Card>
                 </Col>
@@ -90,7 +90,7 @@ function BilligAlt() {
                                 <Card.Title>21,30 kr</Card.Title>
                                 <Card.Text>21,30 pr/l</Card.Text>
                                 </Row>
-                                <Button className="btn-warning">Bytt ut</Button>
+                                <Button className="btn-warning bytt-ut-btn">Bytt ut</Button>
                             </Card.Body>
                     </Card>
                 </Col>
