@@ -122,7 +122,7 @@ function KlimaAlt() {
                         </Card.Img>
                         <Card.Body className="vare-body">
                                 <Row>
-                                <Card.Title> Norveiga 26% </Card.Title>
+                                <Card.Title> Norvegia 26% </Card.Title>
                                 <Card.Text>Skorpefri 500 g</Card.Text>
                                 </Row>
                                 <Row className="mt-4">
