@@ -77,9 +77,9 @@ function PengerSpart() {
                             <div className="divider-div"></div>
                         </Row>
                         <Row className="kategori-bruk-text">
-                            <h6>Dette tilsvarer</h6>
-                            <h3>84 KR</h3>
-                            <h6>denne måneden</h6>
+                            <h4>Dette tilsvarer</h4>
+                            <h1>84 KR</h1>
+                            <h4>denne måneden</h4>
                         </Row>
                         </div>
                     </Col>
