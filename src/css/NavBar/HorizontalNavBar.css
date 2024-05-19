@@ -5,3 +5,7 @@
     flex-wrap: wrap;
     padding: 10px;
 }
+
+.nav-icon {
+    margin-right: 0.2rem;
+}
