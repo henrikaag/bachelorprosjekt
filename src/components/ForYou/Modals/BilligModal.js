@@ -13,8 +13,8 @@ function BilligModal(props) {
                 Bytt ut
                 <svg className="icon-for-you"
                 xmlns="http://www.w3.org/2000/svg" 
-                width="20" 
-                height="20" 
+                width="22" 
+                height="22" 
                 fill="currentColor" 
                 class="bi bi-repeat" 
                 viewBox="0 0 16 16">
