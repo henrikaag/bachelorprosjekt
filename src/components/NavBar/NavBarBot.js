@@ -11,8 +11,8 @@ function NavBarTop() {
   return (
     <Navbar
       className="bg-body-tertiary justify-content-between"
-      bg="dark"
-      data-bs-theme="dark"
+      bg="light"
+      data-bs-theme="light"
     >
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -97,7 +97,7 @@ function NavBarTop() {
 
         <Row>
           <Col xs="auto">
-            <Button type="submit" variant="outline-light">
+            <Button type="submit" variant="outline-secondary">
               Regina
             </Button>
           </Col>

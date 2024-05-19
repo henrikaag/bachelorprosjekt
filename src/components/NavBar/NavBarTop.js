@@ -7,7 +7,7 @@ import Container from "react-bootstrap/Container";
 
 function NavBarTop() {
   return (
-    <Navbar className="bg-body-tertiary justify-content-between" bg="dark" data-bs-theme="dark">
+    <Navbar className="bg-body-tertiary justify-content-between" bg="light" data-bs-theme="light">
       <Container>
         <Form inline>
           <Row>
@@ -34,10 +34,10 @@ function NavBarTop() {
         <Form inline>
           <Row>
             <Col xs="auto">
-              <Button type="submit" variant="outline-light">Velg leveransetid</Button>
+              <Button type="submit" variant="outline-secondary">Velg leveransetid</Button>
             </Col>
             <Col xs="auto">
-              <Button type="submit" variant="outline-light">0,00 kr</Button>
+              <Button type="submit" variant="outline-secondary">0,00 kr</Button>
             </Col>
           </Row>
         </Form>

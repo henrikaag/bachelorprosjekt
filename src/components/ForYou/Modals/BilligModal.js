@@ -30,7 +30,7 @@ function BilligModal(props) {
                   centered
             >
                 <Modal.Header>
-                    <Modal.Title>Bytt til et billigere alternativ</Modal.Title>
+                    <Modal.Title><h2>Bytt til et billigere alternativ</h2></Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                 <Container className="billig-alt-container">
