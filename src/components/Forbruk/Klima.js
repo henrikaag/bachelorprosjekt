@@ -172,13 +172,13 @@ function Klima() {
 
         <Card>
           <Card.Header>
-            <p><b>28. Januar</b> - 29 matvarer</p>
+            <p><b>28. Januar</b> - 34 matvarer</p>
             <Row>
               <Col>
                 <ProgressBar className="progressbar">
-                  <ProgressBar variant="danger" now={70} key={1} />
-                  <ProgressBar variant="warning" now={15} key={2} />
-                  <ProgressBar variant="success" now={15} key={3} />
+                  <ProgressBar variant="danger" now={45} key={1} />
+                  <ProgressBar variant="warning" now={25} key={2} />
+                  <ProgressBar variant="success" now={30} key={3} />
                 </ProgressBar>
               </Col>
               <Col>5,4kg C02/kg</Col>
@@ -192,7 +192,7 @@ function Klima() {
             <Card.Body className="varer-box">
               <Row>
                 <Col>
-                  <Badge bg="danger">70%</Badge>
+                  <Badge bg="danger">45%</Badge>
                 </Col>
 
                 <Col>
@@ -204,7 +204,7 @@ function Klima() {
               </Row>
               <Row>
                 <Col>
-                  <Badge bg="warning">15%</Badge>
+                  <Badge bg="warning">25%</Badge>
                 </Col>
 
                 <Col>
@@ -216,7 +216,7 @@ function Klima() {
               </Row>
               <Row>
                 <Col>
-                  <Badge bg="success">15%</Badge>
+                  <Badge bg="success">30%</Badge>
                 </Col>
 
                 <Col>
