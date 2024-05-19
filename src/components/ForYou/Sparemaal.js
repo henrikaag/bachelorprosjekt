@@ -46,7 +46,7 @@ function Sparemaal() {
             </Row>
             <Row>
                 <div className="sparemaal-btn-div">
-                <Button className="sparemaal-btn btn-warning">Endre Sparemål</Button>
+                <Button className="sparemaal-btn btn-warning">Endre sparemål</Button>
                 </div>
             </Row>
         </Container>
