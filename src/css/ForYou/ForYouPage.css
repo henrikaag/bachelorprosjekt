@@ -1,11 +1,4 @@
 
-/* TESTING */
-
-.test {
-    height: 100%;
-    width: 100%;
-    border: 1px solid red;
-}
 
 /* SPAREMÅL */
 .progressbar{
@@ -33,14 +26,14 @@
 .sparemaal-headline {
     width: 100%;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
     margin-top: 45px;
 }
 
 .sparemaal-text{
     width: 100%;
     margin-bottom: 45px;
-    text-align: center;
+    text-align: left;
 }
 
 .row-progressbar {
@@ -58,7 +51,7 @@
     margin-bottom: 70px;
 }
 .sparemaal-btn {
-    width: 15%;
+    width: 40%;
     justify-content: center;
     text-align: center;
     margin-top: 35px;
