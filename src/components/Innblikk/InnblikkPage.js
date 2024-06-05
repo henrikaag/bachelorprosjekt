@@ -8,9 +8,9 @@ function InnblikkPage() {
     return(
         <Container>
             <Filter/>
-            <PengerSpart/>
             <KategoriBruk/>
             <MaantligBruk/>
+            <PengerSpart/>
         </Container>
     )
 }

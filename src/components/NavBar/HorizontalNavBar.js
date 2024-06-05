@@ -12,7 +12,7 @@ function HorizontalNavBar() {
 
   return (
     <Tabs
-      id="controlled-tab-example"
+      id="controlled-tab"
       activeKey={key}
       onSelect={(k) => setKey(k)}
       className="mb-3 tab-navigation"
